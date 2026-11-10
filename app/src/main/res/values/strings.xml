@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Student Task Manager</string>
+
+    <!-- Login -->
+    <string name="login_title">Student Task Manager</string>
+    <string name="login_subtitle">Organize your academic life, one task at a time</string>
+    <string name="error_username_short">Username must be at least 3 characters</string>
+    <string name="error_password_short">Password must be at least 4 characters</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="create_account">Create Account</string>
+    <string name="toast_login_empty">Enter username and password</string>
+    <string name="toast_login_invalid">Invalid username or password</string>
+    <string name="toast_login_fields_short">Username min. 3 and password min. 4 characters</string>
+    <string name="toast_account_exists">Username already taken</string>
+    <string name="toast_account_created">Account created — log in now</string>
+
+    <!-- Dashboard -->
+    <string name="greeting">Hello, %1$s</string>
+    <string name="stat_total">Total</string>
+    <string name="stat_pending">Pending</string>
+    <string name="stat_completed">Completed</string>
+    <string name="filter_all">All</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_completed">Completed</string>
+    <string name="empty_title">No tasks yet</string>
+    <string name="empty_message">Tap + to add your first academic task</string>
+    <string name="empty_cta">Add my first task</string>
+    <string name="progress_fmt">You\u2019ve completed %1$d of %2$d tasks</string>
+    <string name="logout">Log out</string>
+    <string name="logout_confirm_message">You will need to log in again to continue.</string>
+
+    <!-- Task item -->
+    <string name="status_pending">PENDING</string>
+    <string name="status_completed">COMPLETED</string>
+    <string name="status_overdue">OVERDUE</string>
+    <string name="due_prefix">Due %1$s</string>
+    <string name="no_description">No description</string>
+    <string name="toggle_status">Toggle task status</string>
+
+    <!-- Add / Edit -->
+    <string name="add_task_title">Add Task</string>
+    <string name="edit_task_title">Edit Task</string>
+    <string name="form_section">Task details</string>
+    <string name="helper_due_date">Tap to open the calendar</string>
+    <string name="label_title">Task Title</string>
+    <string name="label_description">Description (optional)</string>
+    <string name="label_due_date">Due Date</string>
+    <string name="save">Save Task</string>
+    <string name="delete">Delete Task</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_date_required">Select a due date</string>
+    <string name="toast_added">Task added</string>
+    <string name="toast_updated">Task updated</string>
+    <string name="toast_deleted">Task deleted</string>
+    <string name="delete_confirm_title">Delete Task</string>
+    <string name="delete_confirm_message">Delete “%1$s”? This cannot be undone.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Status toggle -->
+    <string name="toast_completed">Task marked as completed</string>
+    <string name="toast_pending">Task marked as pending</string>
+    <string name="undo">UNDO</string>
+    <string name="manage_task_title">Manage Task</string>
+    <string name="edit_task">Edit Task</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_app_description">A mobile application that helps students manage their academic activities, assignments, projects, deadlines, and schedules.</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_features">• Login screen\n• Dashboard with task summaries\n• Add, edit, and delete tasks\n• Pending / Completed status\n• Due dates with overdue alerts</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="dev_name">Jan Benny Secreto</string>
+    <string name="dev_course">BSIS - 4A</string>
+    <string name="dev_school">Bicol University</string>
+    <string name="dev_email">janbennysecreto24@gmail.com</string>
+    <string name="about_built_with_title">Built With</string>
+    <string name="about_built_with">Java • XML • SQLite • RecyclerView • Material Design</string>
+
+    <string name="back">Back</string>
+    <string name="add_task">Add Task</string>
+</resources>

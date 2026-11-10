@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Design system: All-black / white text / glowing white buttons -->
+    <color name="primary">#FFFFFF</color>
+    <color name="primary_dark">#FFFFFF</color>
+    <color name="primary_container">#161616</color>
+    <color name="on_primary">#000000</color>
+
+    <color name="secondary">#FFFFFF</color>
+    <color name="accent">#FB923C</color>
+    <color name="on_accent">#000000</color>
+
+    <color name="background">#000000</color>
+    <color name="surface">#121212</color>
+    <color name="surface_variant">#1F1F1F</color>
+    <color name="outline">#80FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_muted_fg">#A8B0BA</color>
+    <color name="card_stroke">#66FFFFFF</color>
+
+    <color name="destructive">#F87171</color>
+    <color name="on_destructive">#000000</color>
+
+    <!-- Status chip colors (dark containers) -->
+    <color name="pending_container">#241407</color>
+    <color name="pending_text">#FDBA74</color>
+    <color name="overdue_container">#2A0D0D</color>
+    <color name="overdue_text">#FCA5A5</color>
+    <color name="complete_container">#062B26</color>
+    <color name="complete_text">#5EEAD4</color>
+</resources>

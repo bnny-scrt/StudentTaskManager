@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Circular white FAB with a layered glow halo -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#40FFFFFF">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <stroke android:width="8dp" android:color="#1AFFFFFF" />
+                </shape>
+            </item>
+            <item
+                android:left="6dp"
+                android:top="6dp"
+                android:right="6dp"
+                android:bottom="6dp">
+                <shape android:shape="oval">
+                    <stroke android:width="3dp" android:color="#40FFFFFF" />
+                </shape>
+            </item>
+            <item
+                android:left="9dp"
+                android:top="9dp"
+                android:right="9dp"
+                android:bottom="9dp">
+                <shape android:shape="oval">
+                    <solid android:color="#FFFFFF" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</ripple>
